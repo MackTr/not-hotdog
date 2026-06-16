@@ -1,8 +1,7 @@
 # Not Hotdog 🌭
 
 A binary image classifier that decides: **Hotdog** or **Not Hotdog**.
-Inspired by HBO's *Silicon Valley*. This is a learning project — the goal is to
-*understand* how a CNN works, not just to get a number.
+This is a learning project — the goal is to *understand* how a CNN works, not just to get a number.
 
 ## The learning path
 
@@ -52,7 +51,3 @@ not-hotdog/
 └── README.md
 ```
 
-## Hardware note
-
-You're on a Mac. PyTorch can use the Apple GPU via the **MPS** backend, so training
-is fast — no cloud GPU needed. The code checks for MPS automatically.
