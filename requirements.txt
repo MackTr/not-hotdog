@@ -1,0 +1,19 @@
+# Core deep learning
+# NOTE: this is an Intel Mac. PyTorch's last Intel-macOS build is 2.2.2, which
+# was compiled against NumPy 1.x — so we must keep NumPy below 2.0 or torch crashes.
+torch==2.2.2
+torchvision==0.17.2
+numpy<2
+
+# Data loading (Hugging Face datasets — for the hotdog/not-hotdog dataset)
+datasets
+
+# Notebooks & plotting
+jupyterlab
+matplotlib
+
+# Phase 6: the demo app
+gradio
+
+# Phase 5: nice-to-have for the confusion matrix
+scikit-learn

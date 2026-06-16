@@ -1,0 +1,18 @@
+# Datasets and model weights are large — don't commit them
+data/
+models/
+*.pth
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Jupyter
+.jupyter/
+
+# macOS
+.DS_Store
